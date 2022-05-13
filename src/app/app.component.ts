@@ -8,7 +8,8 @@ import { User} from './user'
 export class AppComponent {
   title = 'tdfForm';
   topics =['angular','react','php'];
-  userModel=new User('','18euee065@skcet.ac.in',635241789,'');
+  genders=['Male','Female'];
+  userModel=new User('','18euee065@skcet.ac.in',635241789,true,'');
   onSubmit()
   {
     console.log(this.userModel);
